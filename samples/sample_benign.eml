@@ -1,0 +1,28 @@
+Return-Path: <newsletter@news.example.org>
+Delivered-To: user@company.com
+Received: from mail.company.com (mail.company.com [10.0.0.25])
+	by mailbox.company.com with ESMTP id xyz789;
+	Thu, 7 Aug 2025 14:02:11 -0700
+Received: from mta.news.example.org (mta.news.example.org [198.51.100.10])
+	by mail.company.com with ESMTPS id uvw321;
+	Thu, 7 Aug 2025 14:02:05 -0700
+Authentication-Results: mx.company.com;
+	spf=pass smtp.mailfrom=news.example.org;
+	dkim=pass header.d=news.example.org;
+	dmarc=pass header.from=news.example.org
+From: "Example News" <newsletter@news.example.org>
+Reply-To: newsletter@news.example.org
+To: user@company.com
+Subject: Your weekly product update
+Date: Thu, 7 Aug 2025 14:02:00 -0700
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+Here is this week's product update. Read more on our site:
+https://news.example.org/weekly-update
+
+Thanks,
+Example News Team
