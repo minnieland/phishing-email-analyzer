@@ -35,7 +35,7 @@ phishing-email-analyzer/
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/phishing-email-analyzer.git
+git clone https://github.com/minnieland/phishing-email-analyzer.git
 cd phishing-email-analyzer
 
 python3 -m venv .venv
